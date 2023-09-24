@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B6C944C29E94D5500A071EE /* VoiceLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C944B29E94D5500A071EE /* VoiceLinkApp.swift */; };
+		0B6C944E29E94D5500A071EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C944D29E94D5500A071EE /* ContentView.swift */; };
+		0B6C945029E94D5600A071EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C944F29E94D5600A071EE /* Assets.xcassets */; };
+		0B6C945329E94D5600A071EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C945229E94D5600A071EE /* Preview Assets.xcassets */; };
+		0B6C945929E94D5600A071EE /* VoiceLink Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0B6C945829E94D5600A071EE /* VoiceLink Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B6C945E29E94D5600A071EE /* VoiceLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C945D29E94D5600A071EE /* VoiceLinkApp.swift */; };
+		0B6C946029E94D5600A071EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C945F29E94D5600A071EE /* ContentView.swift */; };
+		0B6C946229E94D5600A071EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C946129E94D5600A071EE /* Assets.xcassets */; };
+		0B6C946529E94D5600A071EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C946429E94D5600A071EE /* Preview Assets.xcassets */; };
+		0B7CF87B29E9A271008CEE89 /* VoiceLink.app in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C944829E94D5500A071EE /* VoiceLink.app */; };
+		0BF4B1FF29E9617300AE6EED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF4B1FD29E9616F00AE6EED /* AVFoundation.framework */; };
+		0BF4B20529E96B3100AE6EED /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF4B20329E96B2E00AE6EED /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BC5F3A529E9B7C700CAC677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B6C944029E94D5500A071EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B6C945729E94D5600A071EE;
+			remoteInfo = "VoiceLink Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B6C946B29E94D5600A071EE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0B6C945929E94D5600A071EE /* VoiceLink Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B6C944829E94D5500A071EE /* VoiceLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6C944B29E94D5500A071EE /* VoiceLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceLinkApp.swift; sourceTree = "<group>"; };
+		0B6C944D29E94D5500A071EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B6C944F29E94D5600A071EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B6C945229E94D5600A071EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B6C945829E94D5600A071EE /* VoiceLink Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoiceLink Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6C945D29E94D5600A071EE /* VoiceLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceLinkApp.swift; sourceTree = "<group>"; };
+		0B6C945F29E94D5600A071EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B6C946129E94D5600A071EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B6C946429E94D5600A071EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B7CF87229E9A25B008CEE89 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS9.4.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		0B7CF87729E9A26B008CEE89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS9.4.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		0BC5F3A729E9C5D500CAC677 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0BF4B1FD29E9616F00AE6EED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		0BF4B20329E96B2E00AE6EED /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		0BFA120129E9B2FA00A1C252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B6C944529E94D5500A071EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF4B1FF29E9617300AE6EED /* AVFoundation.framework in Frameworks */,
+				0BF4B20529E96B3100AE6EED /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6C945529E94D5600A071EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B6C943F29E94D5500A071EE = {
+			isa = PBXGroup;
+			children = (
+				0BC5F3A729E9C5D500CAC677 /* LICENSE */,
+				0B6C944A29E94D5500A071EE /* VoiceLink */,
+				0B6C945C29E94D5600A071EE /* VoiceLink Watch App */,
+				0B6C944929E94D5500A071EE /* Products */,
+				0BF4B1FC29E9616F00AE6EED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B6C944929E94D5500A071EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B6C944829E94D5500A071EE /* VoiceLink.app */,
+				0B6C945829E94D5600A071EE /* VoiceLink Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B6C944A29E94D5500A071EE /* VoiceLink */ = {
+			isa = PBXGroup;
+			children = (
+				0B6C944B29E94D5500A071EE /* VoiceLinkApp.swift */,
+				0B6C944D29E94D5500A071EE /* ContentView.swift */,
+				0B6C944F29E94D5600A071EE /* Assets.xcassets */,
+				0B6C945129E94D5600A071EE /* Preview Content */,
+				0BFA120129E9B2FA00A1C252 /* Info.plist */,
+			);
+			path = VoiceLink;
+			sourceTree = "<group>";
+		};
+		0B6C945129E94D5600A071EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B6C945229E94D5600A071EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B6C945C29E94D5600A071EE /* VoiceLink Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0B6C945D29E94D5600A071EE /* VoiceLinkApp.swift */,
+				0B6C945F29E94D5600A071EE /* ContentView.swift */,
+				0B6C946129E94D5600A071EE /* Assets.xcassets */,
+				0B6C946329E94D5600A071EE /* Preview Content */,
+			);
+			path = "VoiceLink Watch App";
+			sourceTree = "<group>";
+		};
+		0B6C946329E94D5600A071EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B6C946429E94D5600A071EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BF4B1FC29E9616F00AE6EED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B7CF87729E9A26B008CEE89 /* AVFoundation.framework */,
+				0BF4B20329E96B2E00AE6EED /* Accelerate.framework */,
+				0B7CF87229E9A25B008CEE89 /* Accelerate.framework */,
+				0BF4B1FD29E9616F00AE6EED /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B6C944729E94D5500A071EE /* VoiceLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6C946C29E94D5600A071EE /* Build configuration list for PBXNativeTarget "VoiceLink" */;
+			buildPhases = (
+				0B6C944429E94D5500A071EE /* Sources */,
+				0B6C944529E94D5500A071EE /* Frameworks */,
+				0B6C944629E94D5500A071EE /* Resources */,
+				0B6C946B29E94D5600A071EE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BC5F3A629E9B7C700CAC677 /* PBXTargetDependency */,
+			);
+			name = VoiceLink;
+			productName = VoiceLink;
+			productReference = 0B6C944829E94D5500A071EE /* VoiceLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B6C945729E94D5600A071EE /* VoiceLink Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6C946829E94D5600A071EE /* Build configuration list for PBXNativeTarget "VoiceLink Watch App" */;
+			buildPhases = (
+				0B6C945429E94D5600A071EE /* Sources */,
+				0B6C945529E94D5600A071EE /* Frameworks */,
+				0B6C945629E94D5600A071EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VoiceLink Watch App";
+			productName = "VoiceLink Watch App";
+			productReference = 0B6C945829E94D5600A071EE /* VoiceLink Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B6C944029E94D5500A071EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0B6C944729E94D5500A071EE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					0B6C945729E94D5600A071EE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 0B6C944329E94D5500A071EE /* Build configuration list for PBXProject "VoiceLink" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B6C943F29E94D5500A071EE;
+			productRefGroup = 0B6C944929E94D5500A071EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B6C944729E94D5500A071EE /* VoiceLink */,
+				0B6C945729E94D5600A071EE /* VoiceLink Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B6C944629E94D5500A071EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6C945329E94D5600A071EE /* Preview Assets.xcassets in Resources */,
+				0B6C945029E94D5600A071EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6C945629E94D5600A071EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7CF87B29E9A271008CEE89 /* VoiceLink.app in Resources */,
+				0B6C946529E94D5600A071EE /* Preview Assets.xcassets in Resources */,
+				0B6C946229E94D5600A071EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B6C944429E94D5500A071EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6C944E29E94D5500A071EE /* ContentView.swift in Sources */,
+				0B6C944C29E94D5500A071EE /* VoiceLinkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6C945429E94D5600A071EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6C946029E94D5600A071EE /* ContentView.swift in Sources */,
+				0B6C945E29E94D5600A071EE /* VoiceLinkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BC5F3A629E9B7C700CAC677 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B6C945729E94D5600A071EE /* VoiceLink Watch App */;
+			targetProxy = 0BC5F3A529E9B7C700CAC677 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B6C946629E94D5600A071EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B6C946729E94D5600A071EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0B6C946929E94D5600A071EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VoiceLink Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 66VP57PC8B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VoiceLink;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.sid.VoiceLink;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.VoiceLink.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		0B6C946A29E94D5600A071EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VoiceLink Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 66VP57PC8B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VoiceLink;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.sid.VoiceLink;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.VoiceLink.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		0B6C946D29E94D5600A071EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VoiceLink/Preview Content\"";
+				DEVELOPMENT_TEAM = 66VP57PC8B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiceLink/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VoiceLink;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.VoiceLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B6C946E29E94D5600A071EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VoiceLink/Preview Content\"";
+				DEVELOPMENT_TEAM = 66VP57PC8B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiceLink/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VoiceLink;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.VoiceLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B6C944329E94D5500A071EE /* Build configuration list for PBXProject "VoiceLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6C946629E94D5600A071EE /* Debug */,
+				0B6C946729E94D5600A071EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B6C946829E94D5600A071EE /* Build configuration list for PBXNativeTarget "VoiceLink Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6C946929E94D5600A071EE /* Debug */,
+				0B6C946A29E94D5600A071EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B6C946C29E94D5600A071EE /* Build configuration list for PBXNativeTarget "VoiceLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6C946D29E94D5600A071EE /* Debug */,
+				0B6C946E29E94D5600A071EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B6C944029E94D5500A071EE /* Project object */;
+}
